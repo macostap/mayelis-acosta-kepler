@@ -1,0 +1,87 @@
+body {
+    background-color: #f0f8ff;
+    color: #333333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  section {
+    margin-bottom: 20px; 
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 3em;
+    color: #4b0082;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2, h3 {
+    font-size: 2em;
+    color: #008080;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  
+  ul.experience {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul.experience li {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  ul.experience li:hover {
+    transform: translateY(-5px);
+  }
+  
+  ul.connect {
+    padding: 0;
+    list-style: none;
+  }
+  
+  ul.connect li {
+    margin: 10px 0;
+  }
+  
+  ul.connect li a {
+    text-decoration: none;
+    color: #ff6347;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  ul.connect li a:hover {
+    color: #ff4500;
+    text-decoration: underline;
+  }
+  
+  .section-aligned {
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4b0082;
+    color: white;
+    margin-top: 30px;
+  }
+  
