@@ -1,0 +1,118 @@
+body {
+    background-color: #f0f8ff;
+    color: #333333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 3em;
+    color: #4b0082;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    font-size: 2em;
+    color: #008080;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #4b0082;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+.section-aligned {
+    text-align: center;
+}
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#experience .job {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.job-header span {
+    font-size: 0.9em;
+    color: #777;
+}
+
+#connect .social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#connect .social a {
+    text-decoration: none;
+    color: #ff6347;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+#connect .social a:hover {
+    color: #ff4500;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4b0082;
+    color: white;
+    margin-top: 30px;
+}
