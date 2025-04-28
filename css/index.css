@@ -8,6 +8,7 @@ body {
 }
 
 section {
+
     margin-bottom: 20px; 
     padding: 20px;
     border: 2px solid #ddd;
@@ -115,6 +116,7 @@ nav ul li a:hover {
     color: #ff6347;
 }
 
+
 #experience {
     display: flex;
     flex-wrap: wrap;
@@ -132,6 +134,26 @@ nav ul li a:hover {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+
+.section-aligned {
+    text-align: center;
+}
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#experience .job {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
 }
 
 .job-header {
@@ -146,3 +168,32 @@ nav ul li a:hover {
     color: #777;
 }
 
+<<<<<<< HEAD
+=======
+#connect .social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#connect .social a {
+    text-decoration: none;
+    color: #ff6347;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+#connect .social a:hover {
+    color: #ff4500;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4b0082;
+    color: white;
+    margin-top: 30px;
+}
+>>>>>>> main
