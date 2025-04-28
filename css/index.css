@@ -8,7 +8,8 @@ body {
 }
 
 section {
-    margin-bottom: 20px;
+
+    margin-bottom: 20px; 
     padding: 20px;
     border: 2px solid #ddd;
     border-radius: 8px;
@@ -31,6 +32,63 @@ h2, h3 {
     font-weight: 600;
     text-transform: capitalize;
     margin-bottom: 10px;
+}
+
+ul.experience {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+ul.experience li {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+ul.experience li:hover {
+    transform: translateY(-5px);
+}
+
+ul.connect {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+ul.connect li {
+    margin: 10px 0;
+}
+
+ul.connect li a {
+    text-decoration: none;
+    color: #ff6347;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+ul.connect li a:hover {
+    color: #ff4500;
+    text-decoration: underline;
+}
+
+.section-aligned {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4b0082;
+    color: white;
+    margin-top: 30px;
 }
 
 nav ul {
@@ -58,6 +116,25 @@ nav ul li a:hover {
     color: #ff6347;
 }
 
+
+#experience {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.job {
+    flex: 1 1 calc(33.33% - 20px);
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
 .section-aligned {
     text-align: center;
 }
@@ -76,6 +153,7 @@ nav ul li a:hover {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
 }
 
 .job-header {
@@ -90,6 +168,8 @@ nav ul li a:hover {
     color: #777;
 }
 
+<<<<<<< HEAD
+=======
 #connect .social {
     display: flex;
     justify-content: center;
@@ -116,3 +196,4 @@ footer {
     color: white;
     margin-top: 30px;
 }
+>>>>>>> main
