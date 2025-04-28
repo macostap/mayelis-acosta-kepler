@@ -1,4 +1,4 @@
-body {
+body { /* desktop-first */
     background-color: #f0f8ff;
     color: #333333;
     font-family: 'Arial', sans-serif;
@@ -168,8 +168,6 @@ nav ul li a:hover {
     color: #777;
 }
 
-<<<<<<< HEAD
-=======
 #connect .social {
     display: flex;
     justify-content: center;
@@ -196,4 +194,54 @@ footer {
     color: white;
     margin-top: 30px;
 }
->>>>>>> main
+
+@media screen and (max-width: 600px) { /* Media query fot mobile*/
+    h1 {
+        font-size: 1.8em; /* 1st change */
+        color: #ff6347;   /* 2nd change* */
+    }
+
+    ul.experience {
+        padding-left: 10px; /* 1st change */
+        background-color: #e0ffff; /* 2nd change* */
+    }
+
+    .job {
+        flex: 1 1 100%; 
+        background-color: #ffe4e1; /* 2nd change* */
+    }
+
+    footer {
+        padding: 20px; /* 1st change */
+        background-color: #6a5acd; /* 2nd change* */
+    }
+}
+  }
+  
+  @media (max-width: 768px) { /* Media query fot tablet/iPad*/
+    h1 {
+        font-size: 2em; /* 1st change */
+        color: #006666; /* 2nd change */
+      }
+    
+      h2, h3 {
+        font-size: 1.5em; /* 1st change */
+        color: #339999; /* 2nd change */
+      }
+    
+      nav ul {
+        flex-direction: column; /* 1st change */
+        gap: 10px; /* 2nd change */
+      }
+    
+      ul.connect {
+        flex-direction: column; /* 1st change */
+        align-items: center; /* 2nd change */
+      }
+    
+      ul.connect li a {
+        font-size: 1em; /* 1st change */
+        color: #007777; /* 2nd change */
+      }
+   }
+  
