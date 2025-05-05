@@ -195,7 +195,10 @@ footer {
     margin-top: 30px;
 }
 
-@media screen and (max-width: 600px) { /* Media query fot mobile*/
+
+@media screen and (max-width: 600px) { /* Media query for mobile*/
+
+
     h1 {
         font-size: 1.8em; /* 1st change */
         color: #ff6347;   /* 2nd change* */
@@ -218,7 +221,9 @@ footer {
 }
   }
   
-  @media (max-width: 768px) { /* Media query fot tablet/iPad*/
+
+  @media (max-width: 768px) { /* Media query for tablet/iPad*/
+
     h1 {
         font-size: 2em; /* 1st change */
         color: #006666; /* 2nd change */
