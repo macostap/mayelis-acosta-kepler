@@ -8,7 +8,7 @@ const copyright = document.createElement('p');
 copyright.innerHTML = `Mayelis Acosta ${thisYear}`;
 footer.appendChild(copyright);
 
-const skills = ["Javascript Fundamentals", "GitHub", "HTML Fundamentals", "CSS Fundamentals"];
+const skills = ["Javascript ", "GitHub", "HTML", "CSS"];
 
 const skillsSection = document.getElementById('skills');
 const skillsList = skillsSection.querySelector('ul');
