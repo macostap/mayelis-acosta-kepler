@@ -196,7 +196,7 @@ footer {
 }
 
 
-@media screen and (max-width: 600px) { /* Media query for mobile*/
+@media screen and (max-width: 480px) { /* Media query for mobile*/
 
 
     h1 {
@@ -249,4 +249,19 @@ footer {
         color: #007777; /* 2nd change */
       }
    }
+
+   #skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  #skills li {
+    background-color: #f2f2f2;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
   
