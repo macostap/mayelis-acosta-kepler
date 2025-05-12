@@ -1,5 +1,4 @@
-/* Desktop Style */
-body {
+body { /* desktop-first */
     background-color: #f0f8ff;
     color: #333333;
     font-family: 'Arial', sans-serif;
@@ -9,7 +8,6 @@ body {
 }
 
 section {
-
     margin-bottom: 20px; 
     padding: 20px;
     border: 2px solid #ddd;
@@ -136,26 +134,6 @@ nav ul li a:hover {
     transition: transform 0.3s ease;
 }
 
-.section-aligned {
-    text-align: center;
-}
-
-#experience {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-#experience .job {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background-color: #f8f8f8;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
 .job-header {
     display: flex;
     justify-content: space-between;
@@ -187,101 +165,132 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #4b0082;
-    color: white;
-    margin-top: 30px;
-}
-
 @media screen and (max-width: 480px) { /* Media query for mobile */
-
-@media screen and (max-width: 600px) { /* Media query for mobile */
-
-
-
     h1 {
-        font-size: 1.8em; /* 1st change */
-        color: #ff6347;   /* 2nd change */
+        font-size: 1.8em;
+        color: #ff6347;
     }
 
     ul.experience {
-        padding-left: 10px; /* 1st change */
-        background-color: #e0ffff; /* 2nd change */
+        padding-left: 10px;
+        background-color: #e0ffff;
     }
 
     .job {
         flex: 1 1 100%;
-        background-color: #ffe4e1; /* 2nd change */
+        background-color: #ffe4e1;
     }
 
     footer {
-        padding: 20px; /* 1st change */
-        background-color: #6a5acd; /* 2nd change */
+        padding: 20px;
+        background-color: #6a5acd;
     }
 
-    nav ul {
-        flex-direction: column; /* 1st change */
-        gap: 15px; /* 2nd change */
+    form input,
+    form textarea,
+    form button {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    form label {
+        font-size: 1em;
+    }
+
+    form {
+        gap: 12px;
     }
 }
 
-
 @media (max-width: 768px) { /* Media query for tablet/iPad */
-
     h1 {
-        font-size: 2em; /* 1st change */
-        color: #006666; /* 2nd change */
+        font-size: 2em;
+        color: #006666;
     }
 
     h2, h3 {
-        font-size: 1.5em; /* 1st change */
-        color: #339999; /* 2nd change */
+        font-size: 1.5em;
+        color: #339999;
     }
 
     nav ul {
-        flex-direction: column; /* 1st change */
-        gap: 10px; /* 2nd change */
+        flex-direction: column;
+        gap: 10px;
     }
 
     ul.connect {
-        flex-direction: column; /* 1st change */
-        align-items: center; /* 2nd change */
+        flex-direction: column;
+        align-items: center;
     }
 
-    footer {
-        padding: 30px; /* 1st change */
-        background-color: #333; /* 2nd change */
+    ul.connect li a {
+        font-size: 1em;
+        color: #007777;
+    }
+
+    form input,
+    form textarea,
+    form button {
+        font-size: 1.1em;
+        padding: 10px;
+    }
+
+    form label {
+        font-size: 1.1em;
+    }
+
+    form button {
+        min-height: 44px;
     }
 }
-  
+
 #skills ul {
-    
-      ul.connect li a {
-        font-size: 1em; /* 1st change */
-        color: #007777; /* 2nd change */
-      }
-   }
-
-   #skills ul {
-
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     list-style: none;
     padding: 0;
-
 }
 
-
-  
-  #skills li {
-
+#skills li {
     background-color: #f2f2f2;
     padding: 8px 12px;
     border-radius: 8px;
     font-weight: bold;
-
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 500px;
+    margin: auto;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+form button {
+    padding: 14px;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #3a006a;
+}

@@ -1,65 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="My Website">
-    <meta name="author" content="Mayelis Acosta">
-    <title>Mayelis Acosta's Portfolio</title>
-    <link rel="stylesheet" href="css/index.css">
-  </head>
-  <body>
 
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#connect">Connect</a></li>
-      </ul>
-    </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js" defer></script>
+</head>
 
-    <h1>Mayelis Acosta</h1>
+<body>
 
-    <section id="about" class="section-aligned">
-      <h2>About</h2>
-      <p>I’m someone who’s curious, determined, and always looking to grow. When I set my mind to learning something new, I give it my full effort even when it gets challenging. I like figuring things out. I’m not afraid to admit when I need help, but I also enjoy pushing myself to solve problems on my own.</p>
-    </section>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#connect">Connect</a></li>
+      <li><a href="#leave-message">Leave a Message</a></li> 
+    </ul>
+  </nav>
 
-    <section id="experience">
-      <h2>Experience</h2>
-      <div class="job">
-        <div class="job-header">
-          <h3>Frontend Student</h3>
-          <span>2025 - Present</span>
-        </div>
-        <p>Learned JavaScript Basics, worked with Git and GitHub, completed HTML & CSS Fundamentals.</p>
+  <h1>Mayelis Acosta</h1>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I’m someone who’s curious, determined, and always looking to grow. When I set my mind to learning something new, I give it my full effort even when it gets challenging. I like figuring things out. I’m not afraid to admit when I need help, but I also enjoy pushing myself to solve problems on my own.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="job">
+      <div class="job-header">
+        <h3>Frontend Student</h3>
+        <span>2025 - Present</span>
       </div>
-    </section>
+      <p>Learned JavaScript Basics, worked with Git and GitHub, completed HTML & CSS Fundamentals.</p>
+    </div>
+  </section>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul></ul> 
-    </section>
-    
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul></ul>
+  </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul id="project-list"></ul>
-    </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul id="project-list"></ul>
+  </section>
 
-    <section id="connect">
-      <h2>Connect</h2>
-      <div class="social">
-        <a href="https://github.com/macostap" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/in/mayelis-acosta-2808b7a0" target="_blank">LinkedIn</a>
-      </div>
-    </section>
+  <section id="leave-message"> 
+    <h2>Leave a Message</h2>
+    <form name="leave_message">
+      <label for="usersName">Your Name:</label>
+      <input type="text" name="usersName" required>
+      <br>
 
-    <script src="js/index.js"></script>
+      <label for="usersEmail">Your Email:</label>
+      <input type="email" name="usersEmail" required>
+      <br>
 
+      <label for="usersMessage">Your Message:</label>
+      <textarea name="usersMessage" required></textarea>
+      <br>
 
-    <script src="js/index.js"></script>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
 
-  </body>
+  <section id="messages">
+    <h2>Messages</h2>
+    <ul></ul> 
+  </section>
+
+  <section id="connect">
+    <h2>Connect</h2>
+    <div class="social">
+      <a href="https://github.com/macostap" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/mayelis-acosta-2808b7a0" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+</body>
 </html>
+
+
