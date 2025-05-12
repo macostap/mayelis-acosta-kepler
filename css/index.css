@@ -9,7 +9,11 @@ body {
 }
 
 section {
+<<<<<<< Updated upstream
     margin-bottom: 20px; 
+=======
+    margin-bottom: 20px;
+>>>>>>> Stashed changes
     padding: 20px;
     border: 2px solid #ddd;
     border-radius: 8px;
@@ -195,7 +199,11 @@ footer {
 }
 
 
+<<<<<<< Updated upstream
 @media screen and (max-width: 480px) { /* Media query for mobile */
+=======
+@media screen and (max-width: 600px) { /* Media query for mobile */
+>>>>>>> Stashed changes
 
     h1 {
         font-size: 1.8em; /* 1st change */
@@ -252,19 +260,22 @@ footer {
     }
 }
 
+<<<<<<< Updated upstream
   
    #skills ul {
+=======
+#skills ul {
+>>>>>>> Stashed changes
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     list-style: none;
     padding: 0;
-  }
-  
-  #skills li {
+}
+
+#skills li {
     background-color: #f2f2f2;
     padding: 8px 12px;
     border-radius: 8px;
     font-weight: bold;
-  }
-  
+}
