@@ -24,7 +24,7 @@ const today = new Date();
 const thisYear = today.getFullYear();
 
 const copyright = document.createElement('p');
-copyright.innerHTML = `Mayelis Acosta ${thisYear}`;
+copyright.innerHTML = `© Mayelis Acosta - ${thisYear}`;
 footer.appendChild(copyright);
 
 const skills = ["Javascript ", "GitHub", "HTML", "CSS"];
