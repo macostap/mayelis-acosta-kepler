@@ -200,7 +200,6 @@ footer {
 @media screen and (max-width: 600px) { /* Media query for mobile */
 
 
-
     h1 {
         font-size: 1.8em; /* 1st change */
         color: #ff6347;   /* 2nd change */
@@ -285,3 +284,38 @@ footer {
 
 }
 
+/* Estilo base para la sección de proyectos */
+#projects {
+  padding: 2rem 1rem;
+}
+
+#project-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#project-list li {
+  margin: 0.75rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  transition: background-color 0.2s;
+}
+
+#project-list a {
+  text-decoration: none;
+  color: #0366d6;
+  font-weight: 500;
+}
+
+#project-list li:hover {
+  background-color: #e0e0e0;
+}
+
+@media (max-width: 480px) {
+  #project-list li {
+    font-size: 0.9rem;
+  }
+}

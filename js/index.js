@@ -23,11 +23,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
  
   fetch('https://api.github.com/users/macostap/repos')
-    .then(response => response.json())
+
+    .then(response => {
+      console.log(response);
+      return response.json();
+    })
     .then(repositories => {
       const projectList = document.getElementById('project-list');
       if (!projectList) {
-        console.error('No se encontró el elemento project-list');
+        console.error('Element not Found project-list');
+
         return;
       }
 
